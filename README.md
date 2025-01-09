@@ -1,4 +1,4 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Hotel Management
 ```
 ⬆️ (Replace above with your app's name)
 ```
