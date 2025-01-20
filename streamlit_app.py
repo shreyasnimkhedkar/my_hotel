@@ -1,6 +1,3 @@
-
-
-
 import pandas as pd
 import streamlit as st
 import os
@@ -8,9 +5,8 @@ from PIL import Image
 import requests
 
 # saving and loading data
-df = pd.read_csv("https://raw.githubusercontent.com/shreyasnimkhedkar/store_management/refs/heads/main/hotel.csv")
-df
-print(df)
+df = "https://raw.githubusercontent.com/shreyasnimkhedkar/store_management/refs/heads/main/hotel.csv"
+
 # Initialize hotel DataFrame
 if 'hotel_df' not in st.session_state:
     if os.path.exists(df):
