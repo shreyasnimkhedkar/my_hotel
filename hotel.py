@@ -5,7 +5,7 @@ from PIL import Image
 import requests
 
 # saving and loading data
-df = "https://raw.githubusercontent.com/shreyasnimkhedkar/store_management/refs/heads/main/hotel.csv"
+df = "https://raw.githubusercontent.com/shreyasnimkhedkar/my_hotel/refs/heads/master/hotel.csv"
 
 # Initialize hotel DataFrame
 if 'hotel_df' not in st.session_state:
